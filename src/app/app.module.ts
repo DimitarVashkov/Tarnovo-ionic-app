@@ -3,21 +3,33 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
-import { ContactPage } from '../pages/contact/contact';
+
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-
+import {TsarevetsPage} from "../pages/tsarevets/tsarevets";
+import {QuizPage} from "../pages/quiz/quiz";
+import {MuseumPage} from "../pages/museum/museum";
+import {MuseumArticle_1Page} from "../pages/museum-article-1/museum-article-1";
+import {MuseumArticle_2Page} from "../pages/museum-article-2/museum-article-2";
+import {MuseumArticle_3Page} from "../pages/museum-article-3/museum-article-3";
+import {MuseumArticle_4Page} from "../pages/museum-article-4/museum-article-4";
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
-    ContactPage,
+    TsarevetsPage,
+    QuizPage,
+    MuseumPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    MuseumArticle_1Page,
+    MuseumArticle_2Page,
+    MuseumArticle_3Page,
+    MuseumArticle_4Page
+
+
   ],
   imports: [
     BrowserModule,
@@ -26,10 +38,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
-    ContactPage,
+    TsarevetsPage,
+    QuizPage,
+    MuseumPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    MuseumArticle_1Page,
+    MuseumArticle_2Page,
+    MuseumArticle_3Page,
+    MuseumArticle_4Page
   ],
   providers: [
     StatusBar,
