@@ -1,0 +1,8 @@
+{
+  "name": "tarnovo",
+  "app_id": "8b2c641c",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
