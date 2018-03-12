@@ -1,17 +1,31 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>Начало</ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content>
+  <div class="wrapper active-page1">
+    <div class="page page1">
+      <h2>Добре дошли!</h2>
+      <p>Велико Търново</p>
+    </div>
+    <div class="page page2">
+      <h2>Работно време</h2>
+    </div>
+    <div class="page page3">
+      <h2>Детайли</h2>
+    </div>
+    <div class="page page4">
+      <h2>Други обекти</h2>
+      <p></p>
+    </div>
+  </div>
+  <div class="nav-panel">
+    <div class="scroll-btn up"></div>
+    <div class="scroll-btn down"></div>
+    <nav>
+      <ul>
+        <li data-target="1" class="nav-btn nav-page1 active"></li>
+        <li data-target="2" class="nav-btn nav-page2"></li>
+        <li data-target="3" class="nav-btn nav-page3"></li>
+        <li data-target="4" class="nav-btn nav-page4"></li>
+      </ul>
+    </nav>
+  </div>
 </ion-content>
+

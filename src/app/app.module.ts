@@ -16,6 +16,11 @@ import {MuseumArticle_1Page} from "../pages/museum-article-1/museum-article-1";
 import {MuseumArticle_2Page} from "../pages/museum-article-2/museum-article-2";
 import {MuseumArticle_3Page} from "../pages/museum-article-3/museum-article-3";
 import {MuseumArticle_4Page} from "../pages/museum-article-4/museum-article-4";
+import {CastleArticle_1Page} from "../pages/castle-article-1/castle-article-1";
+import {CastleArticle_2Page} from "../pages/castle-article-2/castle-article-2";
+import {CastleArticle_3Page} from "../pages/castle-article-3/castle-article-3";
+import {CastleArticle_4Page} from "../pages/castle-article-4/castle-article-4";
+
 @NgModule({
   declarations: [
     MyApp,
@@ -27,7 +32,11 @@ import {MuseumArticle_4Page} from "../pages/museum-article-4/museum-article-4";
     MuseumArticle_1Page,
     MuseumArticle_2Page,
     MuseumArticle_3Page,
-    MuseumArticle_4Page
+    MuseumArticle_4Page,
+    CastleArticle_1Page,
+    CastleArticle_2Page,
+    CastleArticle_3Page,
+    CastleArticle_4Page
 
 
   ],
@@ -46,7 +55,11 @@ import {MuseumArticle_4Page} from "../pages/museum-article-4/museum-article-4";
     MuseumArticle_1Page,
     MuseumArticle_2Page,
     MuseumArticle_3Page,
-    MuseumArticle_4Page
+    MuseumArticle_4Page,
+    CastleArticle_1Page,
+    CastleArticle_2Page,
+    CastleArticle_3Page,
+    CastleArticle_4Page
   ],
   providers: [
     StatusBar,
