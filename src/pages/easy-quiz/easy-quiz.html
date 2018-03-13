@@ -25,10 +25,10 @@
       <h2 class="slide-title" [innerHTML]="slide.question"></h2>
       <p [innerHTML]="slide.description"></p>
       <ion-list>
-        <button ion-button [innerHTML]="slide.a1" (click)="next()"></button>
-        <button ion-button [innerHTML]="slide.a2" (click)="next()"></button>
-        <button ion-button [innerHTML]="slide.a3" (click)="next()"></button>
-        <button ion-button [innerHTML]="slide.a4" (click)="next()"></button>
+        <button ion-button [innerHTML]="slide.a1" (click)="answer('Answer1')"></button>
+        <button ion-button [innerHTML]="slide.a2" (click)="answer('Answer2')"></button>
+        <button ion-button [innerHTML]="slide.a3" (click)="answer('Answer3')"></button>
+        <button ion-button [innerHTML]="slide.a4" (click)="answer('Answer4')"></button>
       </ion-list>
     </ion-slide>
     <ion-slide>
