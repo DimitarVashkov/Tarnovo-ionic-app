@@ -20,6 +20,9 @@ import {CastleArticle_1Page} from "../pages/castle-article-1/castle-article-1";
 import {CastleArticle_2Page} from "../pages/castle-article-2/castle-article-2";
 import {CastleArticle_3Page} from "../pages/castle-article-3/castle-article-3";
 import {CastleArticle_4Page} from "../pages/castle-article-4/castle-article-4";
+import {EasyQuizPage} from "../pages/easy-quiz/easy-quiz";
+import {MediumQuizPage} from "../pages/medium-quiz/medium-quiz";
+import {HardQuizPage} from "../pages/hard-quiz/hard-quiz";
 
 @NgModule({
   declarations: [
@@ -36,8 +39,10 @@ import {CastleArticle_4Page} from "../pages/castle-article-4/castle-article-4";
     CastleArticle_1Page,
     CastleArticle_2Page,
     CastleArticle_3Page,
-    CastleArticle_4Page
-
+    CastleArticle_4Page,
+    EasyQuizPage,
+    MediumQuizPage,
+    HardQuizPage
 
   ],
   imports: [
@@ -61,7 +66,10 @@ import {CastleArticle_4Page} from "../pages/castle-article-4/castle-article-4";
     CastleArticle_1Page,
     CastleArticle_2Page,
     CastleArticle_3Page,
-    CastleArticle_4Page
+    CastleArticle_4Page,
+    EasyQuizPage,
+    MediumQuizPage,
+    HardQuizPage
   ],
   providers: [
     StatusBar,

@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import {EasyQuizPage} from "../easy-quiz/easy-quiz";
+import {MediumQuizPage} from "../medium-quiz/medium-quiz";
+import {HardQuizPage} from "../hard-quiz/hard-quiz";
 /**
  * Generated class for the QuizPage page.
  *
@@ -14,6 +17,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'quiz.html',
 })
 export class QuizPage {
+  easyQuiz = EasyQuizPage;
+  mediumQuiz = MediumQuizPage;
+  hardQuiz = HardQuizPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

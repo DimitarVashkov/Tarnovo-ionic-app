@@ -1,0 +1,44 @@
+<!--
+  Generated template for the EasyQuizPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Лесно ниво</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class="tutorial-page">
+
+  <ion-slides pager="true" (ionSlideDidChange)="slideChanged()">
+    <ion-slide *ngFor="let slide of slidesInfo">
+      <ion-toolbar>
+        <ion-buttons end>
+          <button ion-button color="primary" (click)="previous()">Назад</button>
+          <button ion-button color="primary" (click)="next()">Пропусни</button>
+        </ion-buttons>
+      </ion-toolbar>
+      <h2 class="slide-title" [innerHTML]="slide.question"></h2>
+      <p [innerHTML]="slide.description"></p>
+      <ion-list>
+        <button ion-button [innerHTML]="slide.a1" (click)="next()"></button>
+        <button ion-button [innerHTML]="slide.a2" (click)="next()"></button>
+        <button ion-button [innerHTML]="slide.a3" (click)="next()"></button>
+        <button ion-button [innerHTML]="slide.a4" (click)="next()"></button>
+      </ion-list>
+    </ion-slide>
+    <ion-slide>
+      <ion-toolbar>
+      </ion-toolbar>
+      <h2 class="slide-title">Приключи ли?</h2>
+      <button ion-button large clear icon-end color="primary">
+        Резултат
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

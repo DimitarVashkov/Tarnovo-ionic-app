@@ -47,21 +47,24 @@
     position: relative;
     text-align: center;
     cursor: pointer;
+    img{
+      filter: brightness(60%);
+    }
   }
 
   .card-title {
     position: absolute;
-    top: 36%;
-    font-size: 2.0em;
+    top: 40%;
+    font-size: 2.2em;
     width: 100%;
-    font-weight: bold;
+    font-weight: 400;
     color: #fff;
   }
 
   .card-subtitle {
-    font-size: 1.0em;
+    font-size: 1.4em;
     position: absolute;
-    top: 52%;
+    top: 70%;
     width: 100%;
     color: #fff;
   }

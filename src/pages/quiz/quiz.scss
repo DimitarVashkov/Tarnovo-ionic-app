@@ -74,9 +74,16 @@ page-quiz {
     align-items: center;
     z-index: 2;
 
+    ion-icon{
+      position: absolute;
+      left: 5%;
+      font-size: 3em;
+    }
+
     > .fa-apple {
       color: rgb(34,44,55);
       font-size: 6rem;
+      font-style: normal;
     }
   }
 

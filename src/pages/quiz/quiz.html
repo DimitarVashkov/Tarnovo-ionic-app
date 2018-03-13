@@ -21,9 +21,9 @@
   </ion-chip>
 </div>
 
-  <section class="giftcard">
-    <section class="giftcard-cover">
-      <i class="fa fa-apple">Лесно</i>
+  <section class="giftcard" [navPush]="easyQuiz">
+    <section class="giftcard-cover" >
+      <ion-icon name="alert" color="secondary"></ion-icon><i class="fa fa-apple">Лесно</i>
     </section>
     <footer class="giftcard-footer">
       <div class="giftcard-text">
@@ -34,10 +34,9 @@
   </section>
 
 
-  <div class="route"></div>
-  <section class="giftcard">
-    <section class="giftcard-cover">
-      <i class="fa fa-apple">Средно</i>
+  <section class="giftcard" [navPush]="mediumQuiz">
+    <section class="giftcard-cover" >
+      <ion-icon name="alert" color="alert"></ion-icon><i class="fa fa-apple">Средно</i>
     </section>
     <footer class="giftcard-footer">
       <div class="giftcard-text">
@@ -47,10 +46,9 @@
     </footer>
   </section>
 
-  <div class="route"></div>
-  <section class="giftcard">
-    <section class="giftcard-cover">
-      <i class="fa fa-apple">Трудно</i>
+  <section class="giftcard" [navPush]="hardQuiz">
+    <section class="giftcard-cover" >
+      <ion-icon name="alert" color="danger"></ion-icon><i class="fa fa-apple">Трудно</i>
     </section>
     <footer class="giftcard-footer">
       <div class="giftcard-text">
