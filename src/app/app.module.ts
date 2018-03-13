@@ -42,7 +42,9 @@ import {CastleArticle_4Page} from "../pages/castle-article-4/castle-article-4";
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp,{
+      backButtonText: 'Назад'
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [

@@ -1,7 +1,7 @@
 page-home {
 
   .scroll-content{
-    overflow: hidden;
+    overflow-x: hidden;
   }
   *, *:before, *:after {
     -webkit-box-sizing: border-box;
@@ -254,6 +254,22 @@ page-home {
   }
   .nav-panel .scroll-btn:hover {
     border-color: yellow;
+  }
+
+  .check-out {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: #fff;
+  }
+  .check-out a {
+    color: #ffaaaa;
+    text-decoration: none;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.2rem solid;
   }
 
 }
