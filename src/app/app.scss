@@ -15,15 +15,20 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+$main-app-colour: #735CDD;
+$main-white: #FBFFFE;
+$main-black: #242038;
+$main-orange: #FE9920;
+$main-green: #44633F;
 
 #main_tabs{
   .tabbar{
-    background-color: rgba(143,80,206,1);
+    background-color: $main-app-colour;
     .tab-button-icon{
-      color: white;
+      color: $main-white;
     }
     .tab-button-text{
-      color: white;
+      color: $main-white;
     }
   }
 }
@@ -58,7 +63,7 @@
     font-size: 2.2em;
     width: 100%;
     font-weight: 400;
-    color: #fff;
+    color: $main-white;
   }
 
   .card-subtitle {
@@ -66,7 +71,7 @@
     position: absolute;
     top: 70%;
     width: 100%;
-    color: #fff;
+    color: $main-white;
   }
 
 }

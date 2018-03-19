@@ -1,30 +1,75 @@
-<ion-content>
-  <div class="wrapper active-page1">
-    <div class="page page1">
-      <h2>Добре дошли!</h2>
-      <p class="check-out">Велико Търново</p>
-    </div>
-    <div class="page page2">
-      <h2>Работно време</h2>
-    </div>
-    <div class="page page3">
-      <h2>Детайли</h2>
-    </div>
-    <div class="page page4">
-      <h2>Други обекти</h2>
-    </div>
-  </div>
-  <div class="nav-panel">
-    <div class="scroll-btn up"></div>
-    <div class="scroll-btn down"></div>
-    <nav>
-      <ul>
-        <li data-target="1" class="nav-btn nav-page1 active"></li>
-        <li data-target="2" class="nav-btn nav-page2"></li>
-        <li data-target="3" class="nav-btn nav-page3"></li>
-        <li data-target="4" class="nav-btn nav-page4"></li>
-      </ul>
-    </nav>
-  </div>
-</ion-content>
 
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Начало</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <button ion-button color="primary" (click)="revealInfo()" outline>Информация</button>
+    </ion-col>
+    <ion-col>
+      <button ion-button color="primary" (click)="revealWork()" outline>Работно<br>време</button>
+    </ion-col>
+    <ion-col>
+      <button ion-button color="primary" (click)="revealPrice()" outline>Цени</button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+  <main>
+    <ion-card id="information">
+      <ion-card-header>
+        Информация
+      </ion-card-header>
+      <ion-card-content>
+        Мултимедийният посетителски център „Царевград Търнов“ , популярен като "музей на восъчните фигури", е
+        разположен в близост до хълма Царевец, в самото сърце на старопрестолния град. В него, под формата на
+        скулптури и стенописи са представени исторически личности и паметни събития от периода на Второто българско
+        царство. Визуализира се живота на различните социални слоеве в средновековното българско общество – владетели,
+        духовенство, болярска и войнска прослойка, занаятчии.
+
+        Архитектурно-музейният резерват „Царевец” е един от най-посещаваните туристически обекти България. Разположен е
+        на хълма Царевец, който се намира в старата част на град Велико Търново.
+
+      </ion-card-content>
+    </ion-card>
+    <ion-card id="work-hours" class="hidden">
+      <ion-card-header>
+        Работно време
+      </ion-card-header>
+      <ion-card-content>
+        <h3>Понеделник:</h3>
+        <p>12:30 -  18:30ч. (последен вход) през летния сезон (април-септември)</p>
+        <p>12:30ч. - 17:30ч. (последен вход) през месец октомври</p>
+        <p>12:30ч. - 17:00ч. (последен вход) през зимния период (ноември- март)</p>
+
+        <h3>Вторник - Неделя</h3>
+        <p>09:30 - 18:30 ч. (последен вход) през летния сезон (април-септември)</p>
+        <p>09:30 - 17:30ч. (последен вход) през месец октомври</p>
+        <p>09:30 - 17:00 ч. (последен вход) през зимния сезон (ноември – март)</p>
+      </ion-card-content>
+    </ion-card>
+    <ion-card id="prices" class="hidden">
+      <ion-card-header>
+        Цени
+      </ion-card-header>
+      <ion-card-content>
+        <p>10 лв е цената на билет за възрастни.</p>
+
+        <p>Билетите за учащи и пенсионери са на цена от  5 лв.</p>
+
+        <p>Телефон за резервации и информация- 062/622 148</p>
+
+        <p>Телефон за резервации за всички музейни обекти във Велико Търново-  0887 659 829</p>
+      </ion-card-content>
+    </ion-card>
+  </main>
+
+
+</ion-content>
